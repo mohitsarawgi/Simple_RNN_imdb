@@ -14,7 +14,7 @@ reverse_word_index = {value:key for key,value in word_index.items()}
 
 
 # Load the pretrainded model
-model = load_model('/home/mohit/Desktop/Deep_Learning_NLP/simple_rnn_model.h5')
+model = load_model('simple_rnn_model.h5')
 
 
 def decode_review(encoded_review):
